@@ -25,8 +25,8 @@ class Invoice
         $this->number = $number ?? time();
         PDF::setOptions([
             'fontDir' => storage_path('fonts/'),
-            'defaultFont' => 'sans-serif'
-            ]);
+            'defaultFont' => 'sans-serif',
+        ]);
     }
 
     public function stream()
@@ -47,6 +47,11 @@ class Invoice
     public function message($msg)
     {
         $this->message = $msg;
+    }
+
+    public function status($status)
+    {
+        $this->status = $status;
     }
 
     public function setTaxRate($rate)

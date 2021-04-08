@@ -40,3 +40,8 @@ You can access all of the invoice totals using the following methods
 You can also change the invoice number from the default '1' or from the number you provided on creation of the invoice using the following method
 
     $i->setInvoiceNumber(123456);
+
+The default 'status' of the invoice is 'Paid'. You can change this using the following method
+
+    $i->setStatus('Not Paid');
+    $i->setStatus('Pro Forma');
