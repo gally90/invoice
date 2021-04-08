@@ -1,5 +1,7 @@
 ## Invoice package for Laravel
 
+![Example Invoice](preview.png)
+
 To get started simply use composer to require the package
 
     composer require gally90/laravel-invoice
