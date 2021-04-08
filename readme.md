@@ -36,3 +36,7 @@ You can access all of the invoice totals using the following methods
     $i->getNetTotal();
     $i->getTaxTotal();
     $i->getGrossTotal();
+
+You can also change the invoice number from the default '1' or from the number you provided on creation of the invoice using the following method
+
+    $i->setInvoiceNumber(123456);
