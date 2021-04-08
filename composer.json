@@ -1,0 +1,20 @@
+{
+    "name": "gally90/laravel-invoice",
+    "description": "A simple invoice generator for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Liam",
+            "email": "liam@appliam.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Gally90\\Invoice\\": "src/"
+        }
+    },
+    "require": {
+        "barryvdh/laravel-dompdf": "^1.0@dev"
+    }
+}
